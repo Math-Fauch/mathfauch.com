@@ -10,9 +10,9 @@ const redis = Redis.fromEnv();
 
 export const revalidate = 60;
 export default async function ProjectsPage() {
-  const featured = allProjects.find((project) => project.slug === "unkey")!;
-  const top2 = allProjects.find((project) => project.slug === "planetfall")!;
-  const top3 = allProjects.find((project) => project.slug === "highstorm")!;
+  const featured = allProjects.find((project) => project.slug === "portfolio")!;
+  const top2 = allProjects.find((project) => project.slug === "beneva")!;
+  const top3 = allProjects.find((project) => project.slug === "integration")!;
   const sorted = allProjects
     .filter((p) => p.published)
     .filter(
