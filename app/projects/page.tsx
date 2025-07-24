@@ -87,6 +87,11 @@ export default async function ProjectsPage() {
         </div>
         <div className="hidden w-full h-px md:block bg-zinc-800" />
 
+        <div className="max-w-2xl mx-auto lg:mx-0">
+          <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
+            Autres experiences
+          </h2>
+        </div>
         <div className="grid grid-cols-1 gap-4 mx-auto lg:mx-0 md:grid-cols-3">
           <div className="grid grid-cols-1 gap-4">
             {sorted
