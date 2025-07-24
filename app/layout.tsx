@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "mathfauch.com",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://mathfauch.com/og.png",
         width: 1920,
         height: 1080,
       },
@@ -36,7 +36,7 @@ const inter = Inter({
 });
 
 const calSans = LocalFont({
-  src: "../public/fonts/JetBrainsMonoNerdFont-SemiBold.ttf",
+  src: "../public/fonts/CalSans-SemiBold.ttf",
   variable: "--font-calsans",
 });
 
