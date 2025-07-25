@@ -33,7 +33,7 @@ export default async function ProjectsPage() {
             Projets Pertinents
           </h2>
           <p className="mt-4 text-zinc-400">
-            Ces projets ont été developpé à l'école, au travail ou durant mon temps personnel.
+            Ces projets ont été developpés à l'école, au travail ou durant mon temps personnel.
           </p>
         </div>
         <div className="w-full h-px bg-zinc-800" />
@@ -67,7 +67,7 @@ export default async function ProjectsPage() {
                 </p>
                 <div className="absolute bottom-4 md:bottom-8">
                   <p className="hidden text-zinc-200 hover:text-zinc-50 lg:block">
-                    Read more <span aria-hidden="true">&rarr;</span>
+                    Lire <span aria-hidden="true">&rarr;</span>
                   </p>
                 </div>
               </article>
