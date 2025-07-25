@@ -33,7 +33,7 @@ export default async function ProjectsPage() {
             Projets Pertinents
           </h2>
           <p className="mt-4 text-zinc-400">
-            Ces projets ont ete developpe a l'ecole, au travail ou durant mon temps personnel.
+            Ces projets ont été developpé à l'école, au travail ou durant mon temps personnel.
           </p>
         </div>
         <div className="w-full h-px bg-zinc-800" />
