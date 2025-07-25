@@ -14,14 +14,14 @@ export const metadata: Metadata = {
     shortcut: "/favicon.svg",
   },
 };
-const inter = Inter({
-  subsets: ["latin"],
+const inter = LocalFont({
+  src: "../public/fonts/JetBrainsMonoNerdFont-Bold.ttf",
   variable: "--font-inter",
 });
 
-const calSans = LocalFont({
-  src: "../public/fonts/CalSans-SemiBold.ttf",
-  variable: "--font-calsans",
+const JBMNFont = LocalFont({
+  src: "../public/fonts/JetBrainsMonoNerdFont-SemiBold.ttf",
+  variable: "--font-jbmnfont",
 });
 
 export default function RootLayout({
@@ -30,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
+    <html lang="en" className={[inter.variable, JBMNFont.variable].join(" ")}>
       <head>
         <Analytics />
       </head>
