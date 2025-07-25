@@ -10,22 +10,6 @@ export const metadata: Metadata = {
     template: "%s | mathfauch.com",
   },
   description: "",
-  openGraph: {
-    title: "mathfauch.com",
-    description:
-      "",
-    url: "https://mathfauch.com",
-    siteName: "mathfauch.com",
-    images: [
-      {
-        url: "https://mathfauch.com/og.png",
-        width: 1920,
-        height: 1080,
-      },
-    ],
-    locale: "en-US",
-    type: "website",
-  },
   icons: {
     shortcut: "/favicon.svg",
   },
